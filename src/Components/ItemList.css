@@ -1,0 +1,26 @@
+.item-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .item-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .item-list button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #dc3545;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .item-list button:hover {
+    background-color: #c82333;
+  }
